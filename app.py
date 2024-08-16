@@ -1,3 +1,9 @@
+#  This Code is just for educational purpose
+#  Some of the functions are not soo configured and also might be vulnarable 
+#  this code is no where usable for production server 
+#  using the same raw code in production might lead to some sql injection attack
+#  happy learning (^_^)
+
 from flask import Flask, request, jsonify, render_template, redirect, Response
 import sqlite3, config
 from  api_bp import bp

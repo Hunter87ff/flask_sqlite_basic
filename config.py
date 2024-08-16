@@ -1,3 +1,10 @@
+#  This Code is just for educational purpose
+#  Some of the functions are not soo configured and also might be vulnarable 
+#  this code is no where usable for production server 
+#  using the same raw code in production might lead to some sql injection attack
+#  happy learning (^_^)
+
+
 import sqlite3
 
 con = sqlite3.connect('database.db')
